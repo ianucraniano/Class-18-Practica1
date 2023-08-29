@@ -99,7 +99,9 @@
 /*sección principal*/
 
 .home {
-    background-color: #F0E5AD;
+    background-image: url("../img/pool.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     
     
     
@@ -177,7 +179,7 @@ td ol {
     font-size:"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     font-size:16px; 
     width:50%;
-    color: #2F2F2F;
+    color: #E8C61C;
     font-weight: bold;
     margin-left: 20px;
     margin-top:20px;
@@ -206,6 +208,7 @@ td ol {
 }
 
 .contacto {
+   
     text-align: center;
     background-color: #DFD6A7;
 }
@@ -219,12 +222,13 @@ label {
 
 input {
     border: #C4AA25 2px solid;
+    box-shadow: 5px 5px 15px #2F2F2F;
     
 }
 
 .tipoEvento {
     font-family:"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-    font-size:16px; 
+    font-size:25px; 
     color: #2F2F2F;
 }
 
@@ -232,7 +236,6 @@ input {
     font-family:"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     font-size:16px; 
     color: #2F2F2F;
-    margin-bottom: 15px;
     background-color:#C4AA25;
 }
 .reservar:hover{
@@ -251,6 +254,7 @@ input {
     border: #E8C61C 2px solid;
 
 }
+
 
 select {
     font-family:"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
